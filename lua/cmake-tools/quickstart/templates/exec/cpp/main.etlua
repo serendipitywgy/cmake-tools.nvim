@@ -1,5 +1,6 @@
-#include <iostream>
-
+#include <print>
 int main(int argc, char** argv){
-    std::cout << "Hello, from <%= project_name %>!\n";
+
+    std::println("hello, from <%= project_name %>!");
+    return 0;
 }
